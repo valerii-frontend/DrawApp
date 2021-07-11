@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Приложения для рисования</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>My drawing app (PC ver.1.0)</h1>
+			<p>use full screen mode for best usability</p>
+			<canvas id="canvas" width="600" height="600"></canvas>
+			<div class="tools">
+				<button id="less"><i class="fas fa-minus"></i></button>
+				<span id="size"></span>
+				<button id="more"><i class="fas fa-plus"></i></button>
+				<input type="color" id="color" />
+				<button id="fill"><i class="fas fa-fill-drip"></i></button>
+				<button id="clear"><i class="fas fa-trash-alt"></i></button>
+				<button id="download"><i class="fas fa-download"></i></button>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
